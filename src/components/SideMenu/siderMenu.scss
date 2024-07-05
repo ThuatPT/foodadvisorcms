@@ -1,0 +1,16 @@
+.bg-custom-menu-item:hover {
+  background-color: #4f6f52 !important;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+:where(.ant-menu-light .ant-menu-item-selected),
+:where(.ant-menu-light > .ant-menu .ant-menu-item-selected) {
+  background-color: #4f6f52 !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+}
+
+.bg-custom-menu-item {
+  margin: 14px 0 !important;
+}

@@ -1,0 +1,22 @@
+// Import Tailwind CSS styles
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Define your custom styles using Tailwind CSS classes
+.header-main {
+  @apply bg-white shadow-md flex items-center justify-between px-6 relative z-10;
+}
+
+.notification-icon {
+  @apply mt-2 mr-4;
+}
+
+.user-avatar {
+  @apply ml-4 cursor-pointer;
+}
+
+.menu-dropdown {
+  @apply absolute bg-white rounded-md p-2 shadow-md; // Adjust the order of classes
+  @apply z-10;
+}
